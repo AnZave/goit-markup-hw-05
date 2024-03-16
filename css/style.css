@@ -201,7 +201,7 @@ color: #404BBF;
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7),
      rgba(46, 47, 66, 0.7)), 
-     url("./images/bg/people-office.jpg");
+     url("../images/bg/people-office.jpg");
     background-size: cover;
     max-width: 1440px;
     margin-left: auto;
@@ -510,8 +510,8 @@ color: #404BBF;
 }
 
 .footer-second-column {
-    min-width: 208px;
-    margin-right: 80px;
+    
+    margin-right: auto;
 }
 
 .footer-second-column-text {
@@ -581,10 +581,12 @@ color: #404BBF;
     padding-left: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
+    
 }
 
 .footer-input:focus {
     outline: transparent;
+    border-color: #31d0aa;
 }
 
 .footer-input::placeholder {
@@ -610,6 +612,9 @@ color: #404BBF;
     align-items: center;
 }
 
+.footer-subscribe-btn:focus {
+    background-color: #31d0aa;
+}
 .footer-telegram-icon {
     fill: #ffffff;
     margin-left: 16px;
