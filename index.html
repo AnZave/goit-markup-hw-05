@@ -12,27 +12,41 @@
 </head>
 
 <body>
-        <header class="page-header">
-            <div class="container page-nav-container">
+    <header class="page-header">
+        <div class="container page-nav-container">
             <nav class="page-nav">
-            <a href="./index.html" class="logo">Web<span class="logo-span">Studio</span></a>
-            <ul class="menu">
-              <li class="menu-item"><a href="./index.html" class="menu-link current">Studio</a></li>
-              <li class="menu-item"><a href="" class="menu-link">Portfolio</a></li>
-              <li class="menu-item"><a href="" class="menu-link">Contacts</a></li>
-            </ul>
-        </nav>
-          <address class="contacts">
-            <ul class="contacts-list">
-            <li><a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a></li>
-            <li><a href="tel:+110001111111" class="contacts-link">+11 (000) 111-11-11</a></li>
-            </ul>
-          </address>
+                <a href="./index.html" class="logo">Web<span class="logo-span">Studio</span></a>
+                <ul class="menu">
+                    <li class="menu-item">
+                         <a href="./index.html" class="menu-link current">Studio</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Portfolio</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-open-btn" type="button">
+                <svg class="menu-open-btn-icon" width="18" height="16" aria-label="menu open icon">
+                    <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+            </button>
+            <address class="contacts">
+                <ul class="contacts-list">
+                    <li class="contacts-item">
+                        <a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a>
+                    </li>
+                    <li class="contacts-item">
+                        <a href="tel:+110001111111" class="contacts-link">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+            </address>
         </div>
-        </header>
+    </header>
 
     <main>
-
         <section class="section hero-section">
             <div class="container hero-container">
                 <h1 class="hero-headline">Effective Solutions for Your Business</h1>
@@ -40,9 +54,9 @@
             </div>
         </section>
 
-        <section class="section-benefits section">
+        <section class="section section-benefits">
             <div class="container">
-                <h2 class="visually-hidden">Benefits</h2>
+                <h2 class="section-title visually-hidden">Benefits</h2>
                 <ul class="benefits-list">
                     <li class="benefits-list-item">
                         <div class="rectangel-ico">
@@ -50,8 +64,8 @@
                                 <use href="./images/icons.svg#icon-antenna"></use>
                             </svg>
                         </div>
-                        <h3 class="level-headline">Strategy</h3>
-                        <p class="benefits-p">Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
+                        <h3 class="section-subtitle level-headline">Strategy</h3>
+                        <p class="section-text benefits-p">Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
                     </li>
                     <li class="benefits-list-item">
                         <div class="rectangel-ico">
@@ -59,8 +73,8 @@
                                 <use href="./images/icons.svg#icon-clock"></use>
                             </svg>
                         </div>
-                        <h3 class="level-headline">Punctuality</h3>
-                        <p class="benefits-p">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                        <h3 class="section-subtitle level-headline">Punctuality</h3>
+                        <p class="section-text benefits-p">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
                     </li>
                     <li class="benefits-list-item">
                         <div class="rectangel-ico">
@@ -68,8 +82,8 @@
                                 <use href="./images/icons.svg#icon-diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="level-headline">Diligence</h3>
-                        <p class="benefits-p">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+                        <h3 class="section-subtitle level-headline">Diligence</h3>
+                        <p class="section-text benefits-p">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                     </li>
                     <li class="benefits-list-item">
                         <div class="rectangel-ico">
@@ -77,8 +91,8 @@
                                 <use href="./images/icons.svg#icon-astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="level-headline">Technologies</h3>
-                        <p class="benefits-p">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                        <h3 class="section-subtitle level-headline">Technologies</h3>
+                        <p class="section-text benefits-p">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                     </li>
                 </ul>
             </div>
@@ -86,13 +100,13 @@
 
         <section class="section-team section">
             <div class="container">
-            <h2 class="main-headline">Our Team</h2>
+            <h2 class="section-title main-headline">Our Team</h2>
             <ul class="team-list">
             <li class="team-list-item">
                 <img src="./images/our_team/Mark_Guerrero.jpg" alt="Mark Guerrero" width="264" height="260">
                 <div class="team-container">
-                    <h3 class="level-headline">Mark Guerrero</h3>
-                    <p class="team-p">Product Designer</p>
+                    <h3 class="section-subtitle level-headline">Mark Guerrero</h3>
+                    <p class="section-text team-p">Product Designer</p>
                     <ul class="team-list-social">
                         <li class="team-list-item-social">
                             <a href="" class="team-list-social-link">
@@ -128,8 +142,8 @@
             <li class="team-list-item">
                 <img src="./images/our_team/Tom_Ford.jpg" alt="Tom Ford" width="264" height="260">
                 <div class="team-container">
-                    <h3 class="level-headline">Tom Ford</h3>
-                    <p class="team-p">Frontend Developer</p>
+                    <h3 class="section-subtitle level-headline">Tom Ford</h3>
+                    <p class="section-text team-p">Frontend Developer</p>
                     <ul class="team-list-social">
                         <li class="team-list-item-social">
                             <a href="" class="team-list-social-link">
@@ -165,8 +179,8 @@
             <li class="team-list-item">
                 <img src="./images/our_team/Camila_Garcia.jpg" alt="Camila Garcia" width="264" height="260">
                 <div class="team-container">
-                    <h3 class="level-headline">Camila Garcia</h3>
-                    <p class="team-p">Marketing</p>
+                    <h3 class="section-subtitle level-headline">Camila Garcia</h3>
+                    <p class="section-text team-p">Marketing</p>
                     <ul class="team-list-social">
                         <li class="team-list-item-social">
                             <a href="" class="team-list-social-link">
@@ -202,8 +216,8 @@
             <li class="team-list-item">
                 <img src="./images/our_team/Daniel_Wilson.jpg" alt="Daniel Wilson" width="264" height="260">
                 <div class="team-container">
-                    <h3 class="level-headline">Daniel Wilson</h3>
-                    <p class="team-p">UI Designer</p>
+                    <h3 class="section-subtitle level-headline">Daniel Wilson</h3>
+                    <p class="section-text team-p">UI Designer</p>
                     <ul class="team-list-social">
                         <li class="team-list-item-social">
                             <a href="" class="team-list-social-link">
@@ -240,9 +254,9 @@
         </div>
         </section>  
 
-        <section class="portfolio-section section">
+        <section class="section portfolio-section">
             <div class="container portfolio-container-main">
-                <h2 class="portfolio-headline">Our Portfolio</h2>
+                <h2 class="section-title portfolio-headline">Our Portfolio</h2>
                 <ul class="portfolio-list">
                     <li class="portfolio-list-item">
                         <div class="portfolio-overlay">
@@ -253,8 +267,8 @@
                                     Cloud Storage App</p>
                         </div>
                         <div class="portfolio-container">
-                            <h3 class="portfolio-headline-level">Banking App</h3>
-                            <p class="portfolio-p">App</p>
+                            <h3 class="section-subtitle portfolio-headline-level">Banking App</h3>
+                            <p class="section-text portfolio-p">App</p>
                         </div>
                     </li>    
                     <li class="portfolio-list-item">
@@ -266,8 +280,8 @@
                                     Cloud Storage App</p>
                         </div>
                         <div class="portfolio-container">
-                            <h3 class="portfolio-headline-level">Cashless Payment</h3>
-                            <p class="portfolio-p">Marketing</p>
+                            <h3 class="section-subtitle portfolio-headline-level">Cashless Payment</h3>
+                            <p class="section-text portfolio-p">Marketing</p>
                         </div>
                     </li>
                     <li class="portfolio-list-item">
@@ -279,8 +293,8 @@
                                     Cloud Storage App</p>
                         </div>
                         <div class="portfolio-container">
-                            <h3 class="portfolio-headline-level">Meditation App</h3>
-                            <p class="portfolio-p">App</p>
+                            <h3 class="section-subtitle portfolio-headline-level">Meditation App</h3>
+                            <p class="section-text portfolio-p">App</p>
                         </div>
                     </li>
                     <li class="portfolio-list-item">
@@ -292,8 +306,8 @@
                                     Cloud Storage App</p>
                         </div>
                         <div class="portfolio-container">
-                            <h3 class="portfolio-headline-level">Taxi Service</h3>
-                            <p class="portfolio-p">Marketing</p>
+                            <h3 class="section-subtitle portfolio-headline-level">Taxi Service</h3>
+                            <p class="section-text portfolio-p">Marketing</p>
                         </div>
                     </li>
                     <li class="portfolio-list-item">
@@ -305,8 +319,8 @@
                                     Cloud Storage App</p>
                         </div>
                         <div class="portfolio-container">
-                            <h3 class="portfolio-headline-level">Screen Illustrations</h3>
-                            <p class="portfolio-p">Design</p>
+                            <h3 class="section-subtitle portfolio-headline-level">Screen Illustrations</h3>
+                            <p class="section-text portfolio-p">Design</p>
                         </div>
                     </li>
                     <li class="portfolio-list-item">
@@ -318,8 +332,8 @@
                                     Cloud Storage App</p>
                         </div>
                         <div class="portfolio-container">
-                            <h3 class="portfolio-headline-level">Online Courses</h3>
-                            <p class="portfolio-p">Marketing</p>
+                            <h3 class="section-subtitle portfolio-headline-level">Online Courses</h3>
+                            <p class="section-text portfolio-p">Marketing</p>
                         </div>
                     </li>
                 </ul>
